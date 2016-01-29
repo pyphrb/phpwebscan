@@ -2,6 +2,7 @@
 /**
 *@网络请求模块
 *@author pyphrb
+*支持get,post https方式的curl库，php7
 */
 
 
@@ -139,6 +140,6 @@ class Curl
 $curl = new Curl();
 
 $data = array('username' => 'pyphrb');
-echo $curl->curlPostHttpValue('http://10.1.6.167/ichunqiu.php', $data);
+echo $curl->curlPostHttpValue('http://127.0.0.1', $data);
 
 ?>
